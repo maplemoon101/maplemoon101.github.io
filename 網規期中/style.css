@@ -1,0 +1,59 @@
+.heroimg {
+    background-image: url(img);
+    background-size: cover;
+}
+.nav-color{
+    background-color: #ffeeb0;
+}
+.bg-color{
+    background-color: #feefc6;
+}
+.text-color{
+    color: #997855;
+}
+.navbar a:hover{
+    color: #775c40;
+}
+.navbar a.nav-link:hover{
+    background-color: #ffdd7c;
+}
+.homeTitle-font-family{
+    font-family: Britannic;
+}
+.Bahnschrift-font-family{
+    font-family: Bahnschrift;
+}
+.bt-position-img{
+    position: relative;
+    bottom: 60px;   
+}
+.vh-80 {
+    height: 80vh !important;
+}
+.logo{
+    background-image: url('./img/logo3.svg');
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding-right: 16px;
+    background-repeat: no-repeat;
+}
+.btn-brown{
+    background-color: #ffdd7c;
+}
+.btn-brown:hover{
+    background-color: #ffdd7c;
+    color: #775c40;
+}
+.SimHei-font-family{
+    font-family: SimHei;
+}
+h2 {
+    text-align: center;
+    font-weight: normal;
+}
+
+.bg-brown {
+    --bs-bg-opacity: 1;
+    background-color: #997855 !important;
+}
