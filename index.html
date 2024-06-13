@@ -14,7 +14,7 @@
     <nav class="navbar navbar-expand-lg nav-color fixed-top bg-opacity-50 ">
         <div class="container-fluid">
 
-            <a class="navbar-brand text-color homeTitle-font-family" href="#"><i class="logo"></i>Honey Fanatic</a>
+            <a class="navbar-brand text-color homeTitle-font-family" href="./index.html"><i class="logo"></i>Honey Fanatic</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -22,16 +22,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav Bahnschrift-font-family">
                     <li class="nav-item">
-                        <a class="nav-link text-color" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-color" href="news.html">News</a>
+                        <a class="nav-link text-color" href="./News.html">News</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-color" href="dessert.html">Dessert</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-color" href="dessert.html">Story</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-color" href="comment.html">Comment</a>
@@ -44,7 +38,7 @@
             </div>
         </div>
     </nav>
-    <div class="w-100 vh-100 bg-color d-flex justify-content-center align-items-center container">
+    <div class="w-100 vh-70 bg-color d-flex justify-content-center align-items-center container">
         <div class="row">
             <div id="carouselExampleIndicators" class="carousel slide">
                 <div class="carousel-indicators">
@@ -85,45 +79,39 @@
             </div>
         </div>
     </div>
-    <!-- <div class="container my-5">
-        <div class="row">
-            <span>123<span>
-        </div>
-
-    </div> -->
     <div class="container my-5">
         <div class="row">
             <h2 class="text-color Bahnschrift-font-family">Recommend</h2>
-            <div class="col">
+            <div class="col-4">
                 <div class="card">
                     <img src="./img/card1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-color"><span class="SimHei-font-family">局外人</span><br/>Outsiders</h5>
-                        <p class="card-text ">擁有桃園三個據點的局外人，以小塔、可麗露及達克瓦茲等經典小點作為主推，將品味傳統與創新完美交融，
+                        <p class="card-text text-container" id="card1">擁有桃園三個據點的局外人，以小塔、可麗露及達克瓦茲等經典小點作為主推，將品味傳統與創新完美交融，
                             體驗法國浪漫的味覺體驗的同時，致力於使用優質原料融合在地口味，打造出屬於台灣的精緻甜點。</p>
-                        <a href="#" class="btn btn-brown text-color Bahnschrift-font-family">More</a>
+                        <a id="cardbtn1" onclick="showMore('1')" class="btn btn-brown text-color Bahnschrift-font-family">More</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-4">
                 <div class="card">
-                    <img src="./img/card2.jpeg" class="card-img-top" alt="...">
+                    <img src="./img/card2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-color"><span class="SimHei-font-family">克莉絲塔</span><br/>Christine Tart</h5>
-                        <p class="card-text">位於台中的克莉斯塔主打商品為蛋塔，一共有 20 幾種口味，初次品嚐推薦選擇焦糖佐海鹽口味，
+                        <p class="card-text text-container" id="card2">位於台中的克莉斯塔主打商品為蛋塔，一共有 20 幾種口味，初次品嚐推薦選擇焦糖佐海鹽口味，
                             加熱之後底部的焦糖會融化，一口咬下會爆漿出來，與中間的蛋塔餡融合後，鹹甜鹹甜的滋味很獨特。</p>
-                        <a href="#" class="btn btn-brown text-color Bahnschrift-font-family">More</a>
+                        <a id="cardbtn2" onclick="showMore('2')" class="btn btn-brown text-color Bahnschrift-font-family">More</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-4">
                 <div class="card">
                     <img src="./img/card3.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-color"><span class="SimHei-font-family">宇宙小艇</span><br/>COSMOSHIP</h5>
-                        <p class="card-text">宇宙小艇的巴斯克乳酪蛋糕口味較清淡，單純的乳酪香氣再用馬達加斯加香草夾加以增添風味，
+                        <p class="card-text text-container" id="card3">宇宙小艇的巴斯克乳酪蛋糕口味較清淡，單純的乳酪香氣再用馬達加斯加香草夾加以增添風味，
                             經過烘烤後可以嚐到表層焦化的香味，乳酪使用來自法國的「Kiri」奶油乳酪，甜而不膩，適合不嗜甜的乳酪愛好者。</p>
-                        <a href="#" class="btn btn-brown text-color Bahnschrift-font-family">More</a>
+                        <a id="cardbtn3" onclick="showMore('3')" class="btn btn-brown text-color Bahnschrift-font-family">More</a>
                     </div>
                 </div>
             </div>
@@ -150,6 +138,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+	<script src="./index.js"></script>
 </body>
 
 </html>
